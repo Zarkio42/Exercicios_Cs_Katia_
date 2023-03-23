@@ -114,6 +114,8 @@ namespace Mais_exemplos_Katia_21_03
                 Console.WriteLine("O valor do INSS é de: " + aliq + "R$");
             }
             Console.ReadKey();
+
+            //...
         }
     }
 }
