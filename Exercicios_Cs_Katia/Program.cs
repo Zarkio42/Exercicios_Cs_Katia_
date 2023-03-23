@@ -128,7 +128,7 @@ namespace Exercicios_Cs_Katia
             Console.WriteLine("Digite o total de faltas");
             double.TryParse(Console.ReadLine(), out faltas);
 
-            Console.WriteLine("Você faltou em " + (faltas / aulas) * 100 + "% das aulas!");
+            Console.WriteLine("Você faltou em " + (faltas / aulas) * 100 + "% das aulas! :(");
 
             Console.ReadKey();
 
