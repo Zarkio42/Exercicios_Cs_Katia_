@@ -73,17 +73,21 @@ namespace Mais_exemplos_Katia_21_03
 
             /*
             double preco, desc;
+
             Console.WriteLine("Digite o preço do produto: " + "\n");
             double.TryParse(Console.ReadLine(), out preco);
+            Console.Clear();
+            
             if (preco <= 200)
             {
                 desc = preco * 0.9;
-                Console.WriteLine("Você recebeu um desconto de 10%!" + "\n" + "Total a pagar: " + desc);
+                Console.WriteLine("Você recebeu um desconto de 10%!" + "\n" + "\nTotal a pagar: " + desc);
             }
+            
             else
             {
                 desc = preco * 0.875;
-                Console.WriteLine("Você recebeu um desconto de 12.5%" + "\n" + "Total a pagar: " + desc);
+                Console.WriteLine("Você recebeu um desconto de 12.5%" + "\n" + "\nTotal a pagar: " + desc);
             }
             Console.ReadKey();
             */
