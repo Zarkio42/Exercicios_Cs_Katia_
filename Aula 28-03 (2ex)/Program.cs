@@ -58,9 +58,12 @@ namespace Katia_28_03
 
             int n1, m, mm, soma;
 
-            Console.WriteLine("Digite um número de 4 dígitos");
-            int.TryParse(Console.ReadLine(), out n1);
-            Console.Clear();
+            do
+            {
+                Console.WriteLine("Digite um número de 4 dígitos");
+                int.TryParse(Console.ReadLine(), out n1);
+                Console.Clear();
+            } while (n1 < 1000);
 
             m = n1 / 100;
             mm = n1 % 100;
