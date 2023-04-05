@@ -56,6 +56,7 @@ namespace Katia_28_03
             // e o resultado eleve a 2. Exemplo: 3025, separa-se 30 e 25 resultará em 55. 55*55 = 3025.
             //-------------------------------------------------------------------------------------------------------------------------------------------------
 
+            /*
             int n1, m, mm, soma;
 
             do
@@ -81,6 +82,30 @@ namespace Katia_28_03
             else
             {
                 Console.WriteLine("O número " + n1 + " não é mágico!");
+            }
+
+            Console.ReadKey();
+            */
+            
+            //Metodo que mostra todos os numeros magicos existentes (4 digitos)
+            int m, mm, soma;
+
+            Console.WriteLine("Vou te mostrar quais numeros são magicos a seguir: \n");
+            Console.ReadLine();
+            Console.Clear();
+           
+
+            for (int i = 1000; i <= 9999; i++)
+            {
+                m = i / 100;
+                mm = i % 100;
+                soma = m + mm;
+                if (soma * soma == i)
+                {
+                    Console.WriteLine($"{i} É magico!");
+                }
+
+
             }
 
             Console.ReadKey();
