@@ -63,7 +63,7 @@ namespace Katia_28_03
                 Console.WriteLine("Digite um número de 4 dígitos");
                 int.TryParse(Console.ReadLine(), out n1);
                 Console.Clear();
-            } while (n1 < 1000);
+            } while (n1 < 1000 && n1 <10000);
 
             m = n1 / 100;
             mm = n1 % 100;
