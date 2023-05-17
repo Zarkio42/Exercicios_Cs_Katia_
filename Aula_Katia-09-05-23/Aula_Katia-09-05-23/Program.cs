@@ -68,7 +68,7 @@ namespace Aula_Katia_09_05_23
             
             Console.ReadKey();
 
-            
+            */
 
             //---------------------------------------------------------------------------------
             //Fazer um programa que recebe 5 números no primeiro vetor e 5 números no segundo.
@@ -80,28 +80,46 @@ namespace Aula_Katia_09_05_23
             int[] vetor3 = new int[10];
 
             //inserir dados no primeiro e no segundo vetor
+            //poderia ser feito com números aleatórios com o seguinte código:
+            // Random x = new Random();
+            // vetor[i] = x.Next(0,50);
+
             for (int i = 0; i < 5; i++)
             {
+                Console.WriteLine("Digite uma nota");
                 vetor1[i] = Convert.ToInt32(Console.ReadLine());
                 vetor2[i] = Convert.ToInt32(Console.ReadLine());
+                Console.Clear();
             }
 
             //inserir os dados do 1º e do 2º vetor no 3º
 
-            for (int i = 0; i < 5; i++)
+            for (int j = 0; j < 5; j++)
             {
-                
+                Console.WriteLine($"Elementos do Vetor 1:{vetor1[j]}\n");
             }
+            Console.ReadKey();
+            Console.Clear();
 
-            for (int i = 0; i < 10; i++)
+            for (int j = 0; j < 5; j++)
             {
-                Console.WriteLine($"Vetor 1: {vetor1[i]}\nVetor 2: {vetor2[i]}\nVetor 3: {vetor3[i]}");
-
-
+                Console.WriteLine($"Elementos do Vetor 2:{vetor2[j]}\n");
             }
 
             Console.ReadKey();
-            */
+            Console.Clear();
+
+            for (int i = 0; i < 5; i++)
+            {
+                vetor3[2 * i] = vetor1[i];
+                vetor3[2 * i + 1] = vetor2[i];
+
+                Console.WriteLine($"{vetor3[i]}\n");
+            }
+
+
+            Console.ReadKey();
+            
 
 
         }
