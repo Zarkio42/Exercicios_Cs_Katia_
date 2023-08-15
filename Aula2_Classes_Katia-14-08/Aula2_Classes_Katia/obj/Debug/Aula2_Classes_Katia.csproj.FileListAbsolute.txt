@@ -1,0 +1,8 @@
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\bin\Debug\Aula2_Classes_Katia.exe.config
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\bin\Debug\Aula2_Classes_Katia.exe
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\bin\Debug\Aula2_Classes_Katia.pdb
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\obj\Debug\Aula2_Classes_Katia.csproj.AssemblyReference.cache
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\obj\Debug\Aula2_Classes_Katia.csproj.SuggestedBindingRedirects.cache
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\obj\Debug\Aula2_Classes_Katia.csproj.CoreCompileInputs.cache
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\obj\Debug\Aula2_Classes_Katia.exe
+C:\Users\curso.ads2\Desktop\Aula2_Classes_Katia\Aula2_Classes_Katia\obj\Debug\Aula2_Classes_Katia.pdb
