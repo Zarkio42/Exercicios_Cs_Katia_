@@ -2,5 +2,5 @@
 
 🤯 Todos os exercícios dados em aula, separados em pastas por dia.
 --
-Todos estão com comentários para melhor entendimento 👍
+Quase todos estão com comentários para melhor entendimento 👍
 
