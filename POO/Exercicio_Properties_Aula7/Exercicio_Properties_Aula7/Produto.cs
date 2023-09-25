@@ -10,7 +10,7 @@ namespace Exercicio_Properties_Aula7
     {
         public string Nome { get; set; }
         public double Preco { get; set; }
-        public int EmEstoque {  get; set; }
+        public int Quantidade { get; set; }
 
         public override string ToString()
         {

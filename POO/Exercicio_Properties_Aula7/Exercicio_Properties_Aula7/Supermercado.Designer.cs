@@ -38,6 +38,9 @@
             this.listBoxSacola = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtTotal = new System.Windows.Forms.TextBox();
+            this.numericAmount = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.numericAmount)).BeginInit();
             this.SuspendLayout();
             // 
             // cbxProdutos
@@ -63,7 +66,7 @@
             // 
             this.labelPreco.AutoSize = true;
             this.labelPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPreco.Location = new System.Drawing.Point(128, 163);
+            this.labelPreco.Location = new System.Drawing.Point(128, 210);
             this.labelPreco.Name = "labelPreco";
             this.labelPreco.Size = new System.Drawing.Size(56, 16);
             this.labelPreco.TabIndex = 2;
@@ -71,7 +74,7 @@
             // 
             // txtPreco
             // 
-            this.txtPreco.Location = new System.Drawing.Point(131, 182);
+            this.txtPreco.Location = new System.Drawing.Point(131, 229);
             this.txtPreco.Multiline = true;
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(100, 24);
@@ -91,7 +94,7 @@
             // 
             this.btnAdd.BackColor = System.Drawing.Color.Lime;
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(131, 221);
+            this.btnAdd.Location = new System.Drawing.Point(131, 268);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(83, 27);
             this.btnAdd.TabIndex = 5;
@@ -139,11 +142,32 @@
             this.txtTotal.Size = new System.Drawing.Size(100, 23);
             this.txtTotal.TabIndex = 9;
             // 
+            // numericAmount
+            // 
+            this.numericAmount.Location = new System.Drawing.Point(131, 174);
+            this.numericAmount.Name = "numericAmount";
+            this.numericAmount.Size = new System.Drawing.Size(66, 20);
+            this.numericAmount.TabIndex = 10;
+            this.numericAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numericAmount.ValueChanged += new System.EventHandler(this.numericAmount_ValueChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(128, 155);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(91, 16);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Quantidade:";
+            // 
             // Supermercado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.numericAmount);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.listBoxSacola);
@@ -156,6 +180,7 @@
             this.Controls.Add(this.cbxProdutos);
             this.Name = "Supermercado";
             this.Text = "Supermercado";
+            ((System.ComponentModel.ISupportInitialize)(this.numericAmount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,5 +198,7 @@
         private System.Windows.Forms.ListBox listBoxSacola;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtTotal;
+        private System.Windows.Forms.NumericUpDown numericAmount;
+        private System.Windows.Forms.Label label4;
     }
 }
