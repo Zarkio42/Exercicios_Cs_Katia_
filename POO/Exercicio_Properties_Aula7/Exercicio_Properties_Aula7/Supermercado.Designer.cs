@@ -180,6 +180,7 @@
             this.Controls.Add(this.cbxProdutos);
             this.Name = "Supermercado";
             this.Text = "Supermercado";
+            this.Load += new System.EventHandler(this.Supermercado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericAmount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

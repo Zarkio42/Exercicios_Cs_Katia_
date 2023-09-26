@@ -116,6 +116,7 @@ namespace Exercicio_Properties_Aula7
             for (int i = 0; i < listBoxSacola.Items.Count; i += 3)
             {
                 string precoItem = listBoxSacola.Items[i + 1].ToString();
+                precoItem = precoItem.Replace("R$", "");
                 double.TryParse(precoItem, out double preco);
 
                 string quantidadeItem = listBoxSacola.Items[i + 2].ToString();
@@ -131,6 +132,11 @@ namespace Exercicio_Properties_Aula7
         private void numericAmount_ValueChanged(object sender, EventArgs e)
         {
             valueChange = Convert.ToInt32(numericAmount.Value);
+        }
+
+        private void Supermercado_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
