@@ -8,16 +8,15 @@ namespace WF_Projeto01_Katia_RA1121036
 {
     internal class Reserva : Hospede
     {
+        public string QuartoReservado { get; set; }
         public double ValorTotalReserva { get; set; }
         public DateTime DataCheckIn { get; set; }
         public DateTime DataCheckOut { get; set; }
+        public bool PagamentoPendente { get; set; }
 
-        public bool ReservaEfetivada { get; set; }
-        public bool AtividadesExtra { get; set; }
-
-        public override double Calcular()
+        public override double Calcular(double x)
         {
-            return ValorTotalReserva;
+            return ValorTotalReserva += x;
         }
     }
 }

@@ -8,11 +8,11 @@ namespace WF_Projeto01_Katia_RA1121036
 {
     abstract class Hospede
     {
-        string Nome { get; set; }
-        int Cpf { get; set; }
-        int Telefone { get; set; }
+        public string Nome { get; set; }
+        public int Cpf { get; set; }
+        public string Telefone { get; set; }
 
-        public abstract double Calcular();
+        public abstract double Calcular(double x);
 
     }
 }
